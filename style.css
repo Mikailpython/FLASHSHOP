@@ -37,6 +37,82 @@ a {
     text-decoration: none;
 }
 
+.search {
+    background-color: #A9B5DF;
+}
+
+.container {
+    padding: 4% 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchimg {
+    margin-bottom: 5%;
+    padding-left: 3%;
+}
+
+.container input {
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.slider {
+    background-color: #2D336B;
+    padding: 2%;
+}
+
+.carousel img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+    gap: 3%;
+}
+
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.tovar {
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 5%;
+    margin: 5%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #2d336b62, rgba(255, 255, 255, 0.358), #fff2f26e);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .feedback {
     background-color: #2D336B;
     padding: 5%;

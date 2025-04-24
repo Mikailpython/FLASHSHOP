@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Jacques+Francois&family=Monomakh&family=Oswald:wght@200..700&family=Playwrite+MX+Guides&family=Rubik+Vinyl&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Imprima", sans-serif;
+}
+
+h1 {
+    font-family: "Jacques Francois", serif;
+}
+
+h2 {
+    font-family: "Jacques Francois", serif;
+    color: white;
+    padding: 2%;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+}
+
+header {
+    background-color: #FFF2F2 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color:black;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.search {
+    background-color: #A9B5DF;
+}
+
+.container {
+    padding: 4% 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchimg {
+    margin-bottom: 5%;
+    padding-left: 3%;
+}
+
+.container input {
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.Telephone {
+    background-image: url(images/fonTelephone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    margin: 3%;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.494), rgba(0, 0, 139, 0.434), rgba(0, 0, 0, 0.48));
+    border: 5px white solid;
+    border-radius: 26px;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #2D336B ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.icons {
+    display: flex;
+}
+
+.logof {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+h6 {
+    font-family: "Jacques Francois", serif;
+    color: white;
+}
+
+.logofimg {
+    width: 15%;
+}
